@@ -1,0 +1,97 @@
+* {
+ box-sizing: border-box;
+ }
+ 
+ h1 {
+	color: green;
+ }
+ 
+ header {
+	background-image: url("images/wallpaper2.jpg");
+	height: 300px;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+ }
+
+a:link, a:visited {
+	background-color: transparent;
+	color: white;
+	text-align: center;
+	padding: 4px 15px;
+	text-decoration: none;
+	text-decoration: inline-block;
+}
+
+ a:hover, a:active {
+	 background-color: lightblue;
+ }	
+ 
+ nav.N {
+	float: right;
+	width: 20%;
+	height: 50%;
+	padding: 0px;
+ }
+ 
+ li {
+    display: inline;
+ }	
+ 
+ section {
+	 height: 600px;
+	 background-image: url("images/waste1.jpg");
+	 background-size: 60% 100%;
+     background-position: right top;
+	 background-repeat: no-repeat;
+ }	 
+ 
+section.A {
+	 height: 600px;
+	 background-image: url("images/waste1.jpg");
+	 background-size: 100% 100%;
+     background-position: right top;
+	 background-repeat: no-repeat;
+ }
+ 
+ article {
+	 float: left;
+	 padding: 20px;
+	 font-size: 30px;
+	 color: brown;
+	 background-image: url("images/Wallpaper1.jpg");
+	 background-position: left;
+	 width: 740px;
+ }
+ img.dog {
+	 float: left;
+	 width: 300px;
+	 border-radius: 150px;
+ }
+ img.dog2 {
+	 float: right;
+	 width: 300px;
+	 border-radius: 150px;
+ }
+ 
+ section::after {
+	 content: "";
+	 display: table;
+	 clear: both;
+	 background-color: #777;
+ }
+ 
+ footer {
+	 background-image: url("images/wallpaper2.jpg");
+	 padding: 10px;
+	 text-align: center;
+	 color: white;
+ }
+ 
+ @media (max-width: 60px) {
+	 nav, article {
+		 width: 100%;
+		 height: auto;
+	 }
+ }
